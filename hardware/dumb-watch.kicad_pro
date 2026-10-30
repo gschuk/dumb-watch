@@ -172,6 +172,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -469,6 +472,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -485,7 +489,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "EasyEDA"
+    ]
   },
   "meta": {
     "filename": "dumb-watch.kicad_pro",
@@ -516,8 +522,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -568,6 +574,12 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
           "show": true
         },
         {
@@ -638,9 +650,15 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": true
+          "label": "KLC_S4.2_DVDD",
+          "name": "KLC_S4.2_DVDD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_VREG_LX",
+          "name": "KLC_S4.2_VREG_LX",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -691,7 +709,7 @@
         "uuid": "adcfcebe-5527-4a49-9ef3-b0a229655985"
       }
     ],
-    "used_designators": "MIC1,U1-8,X1,SW1,#PWR1-3",
+    "used_designators": "#PWR1-8,Card1,FPC1,J1-3,MIC1,SW1-2,U1-10,USB1,X1",
     "variants": []
   },
   "sheets": [
@@ -700,24 +718,24 @@
       "Stammblatt"
     ],
     [
-      "f2e0dabc-3ca5-44ac-8736-edce5a5b039b",
-      "Sensors"
-    ],
-    [
       "29a2119f-a37b-4f35-af38-69cfe2a64f32",
       "Power"
-    ],
-    [
-      "c3fa7e56-48b8-4b9e-b31f-12314e47be3e",
-      "HMI"
     ],
     [
       "4d8f6cba-1c0d-40d9-bf8e-ca7de8519041",
       "MCU"
     ],
     [
+      "f2e0dabc-3ca5-44ac-8736-edce5a5b039b",
+      "Sensors"
+    ],
+    [
       "cb5edf23-4085-4ffd-92f1-15d66d4d1018",
       "Audio"
+    ],
+    [
+      "c3fa7e56-48b8-4b9e-b31f-12314e47be3e",
+      "HMI"
     ]
   ],
   "text_variables": {},
