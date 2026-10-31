@@ -1184,6 +1184,17 @@
 		)
 		(uuid "7e97ef0e-9397-42df-b54b-b522f34839c2")
 	)
+	(text "3V3 Stromverbrauch:\n  LCD (ST77916)		10mA\n  Audio/Codec		8mA\n  Audio/Mikro		120µA\n  Sensor/RTC		800µA\n  Sensor/IMU		970µA\n  Sensor/Magneto	4mA\n  MCU/QSPI Flash	25mA\n  MCU_AVDD			220µA\n  MCU_IOVDD			506µA\n  MCU_QSPI_IOVDD	22µA\n  MCU_ADC_IOVDD		142µA\n  MCU_USB_OTP_VDD	6mA\n\n=> 55.780mA"
+		(exclude_from_sim no)
+		(at 173.99 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "91f7f3f9-7ee3-4f85-9f9a-0d9075c61411")
+	)
 	(no_connect
 		(at 68.58 124.46)
 		(uuid "03078861-d904-4737-9f17-830332f97901")
@@ -1420,6 +1431,84 @@
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 175.26 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3090ea55-9171-40a6-80d1-1c0b86ec4985")
+		(property "Reference" "#PWR016"
+			(at 175.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 175.26 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 175.26 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "addc29ee-b52d-491f-a04c-723c885e4748")
+		)
+		(instances
+			(project "dumb-watch"
+				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
