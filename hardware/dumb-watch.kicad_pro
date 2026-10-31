@@ -488,7 +488,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "EasyEDA"
+    ],
     "pinned_symbol_libs": [
       "EasyEDA"
     ]
@@ -709,7 +711,7 @@
         "uuid": "adcfcebe-5527-4a49-9ef3-b0a229655985"
       }
     ],
-    "used_designators": "#PWR1-16,C1,Card1,FPC1,J1-3,JP1,MIC1,R1-4,SW1-2,U1-10,USB1,X1",
+    "used_designators": "#PWR1-45,C1-22,Card1,D11,FPC1,J1-3,JP1-2,L1,MIC1,R1-15,SW1-2,U1-10,USB1,X1",
     "variants": []
   },
   "sheets": [
