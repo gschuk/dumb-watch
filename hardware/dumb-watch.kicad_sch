@@ -20,6 +20,16 @@
 		)
 		(uuid "512c2a1d-3ac6-44ad-82f7-cb0dbd314b05")
 	)
+	(wire
+		(pts
+			(xy 177.8 105.41) (xy 190.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0badcb-88d1-4eb3-8f9f-1626b6f59c08")
+	)
 	(bus
 		(pts
 			(xy 107.95 124.46) (xy 120.65 124.46)
@@ -194,7 +204,7 @@
 				(justify right)
 			)
 		)
-		(pin "LCD{SCK CS IO[0..3] RST TE}" output
+		(pin "LCD{SCK ~{CS} IO[0..3] ~{RST} TE}" output
 			(at 177.8 107.95 0)
 			(uuid "ac22984e-9ea2-407b-94c6-6eb3b1643a7e")
 			(effects
@@ -222,6 +232,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BTN[0..1]" input
+			(at 177.8 105.41 0)
+			(uuid "818dfe21-3d59-4272-9e4c-1f4c260f1141")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -280,7 +300,7 @@
 				(justify left)
 			)
 		)
-		(pin "LCD{SCK CS IO[0..3] RST TE}" input
+		(pin "LCD{SCK ~{CS} IO[0..3] ~{RST} TE}" input
 			(at 190.5 107.95 180)
 			(uuid "f827bf6f-3443-4e63-a251-df7764cfad85")
 			(effects

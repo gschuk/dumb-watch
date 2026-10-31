@@ -1137,7 +1137,7 @@
 		(at 129.54 68.58)
 		(uuid "fe2a6487-a601-429c-aeac-2be84b70aaa4")
 	)
-	(hierarchical_label "LCD{SCK CS IO[0..3] RST TE}"
+	(hierarchical_label "LCD{SCK ~{CS} IO[0..3] ~{RST} TE}"
 		(shape input)
 		(at 106.68 102.87 180)
 		(effects
