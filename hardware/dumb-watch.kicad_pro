@@ -522,8 +522,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -709,7 +709,7 @@
         "uuid": "adcfcebe-5527-4a49-9ef3-b0a229655985"
       }
     ],
-    "used_designators": "#PWR1-16,C1,Card1,FPC1,J1-3,JP1,MIC1,R1-4,SW1-2,U1-10,USB1,X1",
+    "used_designators": "#PWR1-34,C1-11,Card1,JP1,FPC1,MIC1,J1-3,R1-9,SW1-2,U1-10,USB1,X1",
     "variants": []
   },
   "sheets": [
