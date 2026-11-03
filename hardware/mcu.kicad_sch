@@ -3611,14 +3611,14 @@
 		)
 		(uuid "9fcc7c89-04a5-431f-a4e7-8c39a31a2c21")
 	)
-	(text "Referenz: Hardware design with RP2350\nhttps://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008280-DS-2-hardware-design-with-rp2350.pdf"
+	(text "Referenz:\nHardware design with RP2350\nhttps://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008280-DS-2-hardware-design-with-rp2350.pdf\nRP2350A Minimal KiCAD\nhttps://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-010328-CA-1-RP2350A%20Minimal%20KiCAD.zip"
 		(exclude_from_sim no)
-		(at 156.21 74.93 0)
+		(at 155.956 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "ca032f46-0338-4760-961c-887c06a12247")
 	)
