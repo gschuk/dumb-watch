@@ -3903,6 +3903,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4072,7 +4073,7 @@
 			(uuid "658c6b0c-02fd-4dbe-b65f-3affe1ad2e7e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOD-523_L1.2-W0.8-LS1.6-BI.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOD-523_L1.2-W0.8-LS1.6-BI.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5974,6 +5975,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6143,7 +6145,7 @@
 			(uuid "3f9390bb-192c-4372-b829-f4183831845d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOD-523_L1.2-W0.8-LS1.6-BI.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/SOD-523_L1.2-W0.8-LS1.6-BI.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12080,6 +12082,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12237,7 +12240,7 @@
 			(uuid "22462ff1-283e-40d5-8796-5fe7acf3759e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T.wrl"
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14398,6 +14401,32 @@
 		(at 142 125 0)
 		(layer "User.1")
 		(uuid "860bb86d-aacd-456b-91c5-c05f724c6cb2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "armbänderdinger"
+		(at 152.75 131.25 0)
+		(layer "User.1")
+		(uuid "a8fa5244-b5fd-4c41-b583-f6fa02903d3f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "unten flach wegen FPC"
+		(at 160.5 121 0)
+		(layer "User.1")
+		(uuid "92f30c0a-9a2b-4b6d-9368-b9b61f619e08")
 		(effects
 			(font
 				(size 1.5 1.5)
