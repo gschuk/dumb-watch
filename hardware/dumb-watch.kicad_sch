@@ -7,7 +7,12 @@
 	(title_block
 		(title "dumb-watch")
 		(date "2026-10-30")
-		(rev "0.0.0")
+		(rev "rev2026.1")
+		(company "TU Darmstadt")
+		(comment 1 "Mirco Heitmann")
+		(comment 2 "Georg Schukov")
+		(comment 3 "Conrad Walther")
+		(comment 4 "gez.:")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

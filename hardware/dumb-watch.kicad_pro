@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.0.0"
+      "sch_revision": "rev2026.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -711,7 +711,7 @@
         "uuid": "adcfcebe-5527-4a49-9ef3-b0a229655985"
       }
     ],
-    "used_designators": "#PWR1-94,C1-40,Card1,D1-3,D11,FPC1,J1-4,JP1-2,L1-3,MIC1,Q1-2,R1-47,SW1-2,TP1-9,U1-10,USB1,X1-2",
+    "used_designators": "#PWR1-95,C1-40,Card1,D1-3,D11,FPC1,J1-4,JP1-2,L1-3,MIC1,Q1-2,R1-47,SW1-2,TP1-10,U1-10,USB1,X1-2",
     "variants": []
   },
   "sheets": [

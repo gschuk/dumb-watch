@@ -7,7 +7,12 @@
 	(title_block
 		(title "dumb-watch")
 		(date "2026-10-30")
-		(rev "0.0.0")
+		(rev "rev2026.1")
+		(company "TU Darmstadt")
+		(comment 1 "Mirco Heitmann")
+		(comment 2 "Georg Schukov")
+		(comment 3 "Conrad Walther")
+		(comment 4 "gez.:")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2486,9 +2491,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "3V3 Stromverbrauch:\n  LCD (ST77916)		10mA\n  Audio/Codec		8mA\n  Audio/Mikro		120µA\n  Sensor/RTC		800µA\n  Sensor/IMU		970µA\n  Sensor/Magneto	4mA\n  MCU/QSPI Flash	25mA\n  MCU_AVDD			220µA\n  MCU_IOVDD			506µA\n  MCU_QSPI_IOVDD	22µA\n  MCU_ADC_IOVDD		142µA\n  MCU_USB_OTP_VDD	6mA\n  microSD			80mA\n\n=> 135.780mA"
+	(text "Backfeed-Schutz ist in Lade-IC integriert"
 		(exclude_from_sim no)
-		(at 184.15 78.232 0)
+		(at 114.808 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8853aadc-b07b-4caf-bed5-7b9e2811adf9")
+	)
+	(text "3V3 Stromverbrauch:\n  LCD (ST77916)		 10mA\n  Audio/Codec		  8mA\n  Audio/Mikro		120µA\n  Sensor/RTC		800µA\n  Sensor/IMU		970µA\n  Sensor/Magneto	  4mA\n  MCU/QSPI Flash	 25mA\n  MCU_AVDD			220µA\n  MCU_IOVDD			506µA\n  MCU_QSPI_IOVDD	 22µA\n  MCU_ADC_IOVDD		142µA\n  MCU_USB_OTP_VDD	  6mA\n  microSD			 80mA\n\n=> 135.780mA"
+		(exclude_from_sim no)
+		(at 183.642 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2509,7 +2524,7 @@
 	)
 	(text "Akku:\nhttps://eckstein-shop.de/LiPo-Battery-Lithium-Ion-Polymer-Battery-37V-350mAh-with-JST-PHR-2-Connector-LP552035-EN"
 		(exclude_from_sim no)
-		(at 16.764 18.288 0)
+		(at 54.356 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,7 +2626,7 @@
 		(uuid "278964a2-af91-4db1-9395-fb41687ce2bd")
 	)
 	(junction
-		(at 113.03 58.42)
+		(at 113.03 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "298c0bea-bcf0-4a9b-8b1e-ccc7e8669c93")
@@ -3176,7 +3191,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 125.73 58.42)
+			(xy 113.03 57.15) (xy 125.73 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3236,16 +3251,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 49.53) (xy 113.03 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a393e125-4a0a-49ce-8ebe-3e086d9b1127")
-	)
-	(wire
-		(pts
 			(xy 97.79 148.59) (xy 97.79 147.32)
 		)
 		(stroke
@@ -3296,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 144.78 58.42)
+			(xy 133.35 57.15) (xy 144.78 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 113.03 63.5)
+			(xy 113.03 49.53) (xy 113.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3566,7 +3571,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 58.42) (xy 144.78 52.07)
+			(xy 144.78 57.15) (xy 144.78 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3648,7 +3653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 63.5 0)
+		(at 113.03 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3659,7 +3664,7 @@
 		(fields_autoplaced yes)
 		(uuid "077e7def-dded-4f9d-bd22-f1f384e96dae")
 		(property "Reference" "#PWR09"
-			(at 113.03 69.85 0)
+			(at 113.03 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 68.58 0)
+			(at 113.03 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3680,7 +3685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 63.5 0)
+			(at 113.03 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3691,7 +3696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 63.5 0)
+			(at 113.03 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 63.5 0)
+			(at 113.03 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4092,7 +4097,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 58.42 270)
+		(at 129.54 57.15 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4103,7 +4108,7 @@
 		(dnp no)
 		(uuid "205bc4ec-e97f-4e02-aa40-a71664b8ed95")
 		(property "Reference" "R3"
-			(at 129.54 61.214 90)
+			(at 129.54 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4113,7 +4118,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 129.54 63.754 90)
+			(at 129.54 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4123,7 +4128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 60.198 90)
+			(at 129.54 58.928 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4134,7 +4139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 58.42 0)
+			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4150,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 58.42 0)
+			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4336,7 +4341,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a222aa6-fca0-4ff1-b39f-8887150488ca")
 		(property "Reference" "#PWR084"
 			(at 121.92 72.39 0)
@@ -4350,7 +4354,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 121.92 63.5 0)
+			(at 121.92 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4635,7 +4639,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3090ea55-9171-40a6-80d1-1c0b86ec4985")
 		(property "Reference" "#PWR012"
 			(at 182.88 54.61 0)
@@ -4649,7 +4652,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 182.88 45.72 0)
+			(at 182.88 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5030,7 +5033,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3fe28000-9ce7-4302-ba11-ee72a9784ec8")
 		(property "Reference" "#PWR016"
 			(at 214.63 54.61 0)
@@ -5044,7 +5046,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 214.63 45.72 0)
+			(at 214.63 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5254,84 +5256,6 @@
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 90.17 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a2d9daf-0240-4e6e-b28c-b9a952a2ff7d")
-		(property "Reference" "#PWR05"
-			(at 90.17 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 90.17 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 90.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e89a4f73-c804-4f3a-8264-f3da0bf6942e")
-		)
-		(instances
-			(project "dumb-watch"
-				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5598,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97ab4324-8ac5-4758-abdd-7c7b8b0e92cb")
 		(property "Reference" "#PWR07"
 			(at 106.68 49.53 0)
@@ -5688,7 +5611,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 106.68 40.64 0)
+			(at 106.68 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6107,7 +6030,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c19ad52f-8064-4082-8402-61e4ebcaf230")
 		(property "Reference" "#PWR010"
 			(at 149.86 49.53 0)
@@ -6121,7 +6043,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 149.86 40.64 0)
+			(at 149.86 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6253,6 +6175,83 @@
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 90.17 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de750560-6fe4-44f8-b03a-addddbff5663")
+		(property "Reference" "#PWR045"
+			(at 90.17 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 90.17 93.726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 90.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a7bf19a-3f60-40bd-871e-4a5710b338bc")
+		)
+		(instances
+			(project "dumb-watch"
+				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6405,7 +6404,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb356e55-bbed-4324-920c-48e21dac3a1c")
 		(property "Reference" "#PWR03"
 			(at 64.77 50.8 0)
@@ -6419,7 +6417,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 64.77 41.91 0)
+			(at 64.77 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -7,7 +7,12 @@
 	(title_block
 		(title "dumb-watch")
 		(date "2026-10-30")
-		(rev "0.0.0")
+		(rev "rev2026.1")
+		(company "TU Darmstadt")
+		(comment 1 "Mirco Heitmann")
+		(comment 2 "Georg Schukov")
+		(comment 3 "Conrad Walther")
+		(comment 4 "gez.:")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1763,9 +1768,9 @@
 		)
 		(uuid "ba922421-ccca-4c4b-93ac-ae26238315f5")
 	)
-	(text "Kondensatoren am Mikro\nsollten keine Keramik-\nDielektrik besitzen\nwegen Piezo-Effekt"
+	(text "Kondensatoren am Mikro\nsollten keine Keramik-\nDielektrik besitzen\nwegen Piezo-Effekt\n -> C0G/Tantal"
 		(exclude_from_sim no)
-		(at 79.248 91.186 0)
+		(at 78.486 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1775,7 +1780,7 @@
 	)
 	(text "Mit MCLK_SEL kann BCLK statt MCLK genutzt werden"
 		(exclude_from_sim no)
-		(at 168.148 137.668 0)
+		(at 169.418 136.652 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1793,7 +1798,7 @@
 		)
 		(uuid "2a20f49b-2619-43cd-a746-a659bf69ecf8")
 	)
-	(text "Chip Adresse:\n  0011000b\n  18h"
+	(text "I²C-Adresse:\n  0011000b\n  18h"
 		(exclude_from_sim no)
 		(at 112.014 101.6 0)
 		(effects
@@ -1903,10 +1908,6 @@
 		(uuid "409c4170-4f70-49cf-aa1d-124008dd8d5c")
 	)
 	(no_connect
-		(at 198.12 110.49)
-		(uuid "7cbd167b-40fc-4e27-a61e-9a1e2f5663cb")
-	)
-	(no_connect
 		(at 142.24 125.73)
 		(uuid "8549e159-e5a0-4ae2-97ac-d0e4bf83c6e3")
 	)
@@ -1915,7 +1916,7 @@
 		(uuid "af7f8652-322f-4cf4-a32f-e8c3322c3a0d")
 	)
 	(bus_entry
-		(at 228.6 105.41)
+		(at 229.87 105.41)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1924,7 +1925,7 @@
 		(uuid "9d3fba63-7b97-4f32-a3e6-e4e552540b11")
 	)
 	(bus_entry
-		(at 228.6 120.65)
+		(at 229.87 120.65)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1933,7 +1934,7 @@
 		(uuid "b2ace29b-f8aa-4fae-9228-1296fd37912e")
 	)
 	(bus_entry
-		(at 228.6 123.19)
+		(at 229.87 123.19)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1942,7 +1943,7 @@
 		(uuid "b8812c9a-83e9-45d9-bc6a-abdcfd1cc2f9")
 	)
 	(bus_entry
-		(at 228.6 118.11)
+		(at 229.87 118.11)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1951,7 +1952,7 @@
 		(uuid "c8a10fae-6ca1-406d-aa91-e2ae789fad5e")
 	)
 	(bus_entry
-		(at 228.6 102.87)
+		(at 229.87 102.87)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1961,7 +1962,7 @@
 	)
 	(bus
 		(pts
-			(xy 228.6 100.33) (xy 231.14 100.33)
+			(xy 229.87 100.33) (xy 232.41 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 123.19) (xy 226.06 123.19)
+			(xy 198.12 123.19) (xy 227.33 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 226.06 120.65)
+			(xy 198.12 120.65) (xy 227.33 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2151,7 +2152,7 @@
 	)
 	(bus
 		(pts
-			(xy 231.14 115.57) (xy 228.6 115.57)
+			(xy 232.41 115.57) (xy 229.87 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 107.95) (xy 226.06 107.95)
+			(xy 198.12 107.95) (xy 227.33 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2238,6 +2239,16 @@
 			(type default)
 		)
 		(uuid "6b85f47c-ade3-4cc5-ace1-4d32d3351e65")
+	)
+	(wire
+		(pts
+			(xy 198.12 110.49) (xy 208.28 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b918b3-3c3f-413e-b5b5-3962cea776e8")
 	)
 	(wire
 		(pts
@@ -2421,7 +2432,7 @@
 	)
 	(bus
 		(pts
-			(xy 228.6 115.57) (xy 228.6 123.19)
+			(xy 229.87 115.57) (xy 229.87 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 105.41) (xy 226.06 105.41)
+			(xy 199.39 105.41) (xy 227.33 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2621,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 125.73) (xy 226.06 125.73)
+			(xy 198.12 125.73) (xy 227.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2641,7 +2652,7 @@
 	)
 	(bus
 		(pts
-			(xy 228.6 100.33) (xy 228.6 105.41)
+			(xy 229.87 100.33) (xy 229.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2700,7 +2711,7 @@
 		(uuid "5cffe5b8-d336-40c5-b36b-cfe4ea73eef8")
 	)
 	(label "I2C.SDA"
-		(at 214.63 105.41 0)
+		(at 215.9 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2730,7 +2741,7 @@
 		(uuid "858d0fa3-b868-4746-ba27-412fafb1141d")
 	)
 	(label "I2S.LRCK"
-		(at 214.63 125.73 0)
+		(at 215.9 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2750,7 +2761,7 @@
 		(uuid "9adad521-58f0-4d7f-81a4-e5b09510e480")
 	)
 	(label "I2S.BCLK"
-		(at 214.63 120.65 0)
+		(at 215.9 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2760,7 +2771,7 @@
 		(uuid "a5e3f90a-e17b-4676-978a-8fc51b754e0e")
 	)
 	(label "I2C.SCL"
-		(at 214.63 107.95 0)
+		(at 215.9 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2780,7 +2791,7 @@
 		(uuid "d9eb3b2b-87e9-4269-be63-658683246c76")
 	)
 	(label "I2S.ASDOUT"
-		(at 214.63 123.19 0)
+		(at 215.9 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2801,7 +2812,7 @@
 	)
 	(hierarchical_label "I2C{SDA SCL}"
 		(shape bidirectional)
-		(at 231.14 100.33 0)
+		(at 232.41 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2812,7 +2823,7 @@
 	)
 	(hierarchical_label "I2S{BCLK LRCK ASDOUT}"
 		(shape bidirectional)
-		(at 231.14 115.57 0)
+		(at 232.41 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2898,83 +2909,6 @@
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 45.72 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "09e94cbf-9589-4598-81ab-e9bd3c95495a")
-		(property "Reference" "#PWR051"
-			(at 45.72 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 45.72 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "588e3f89-2ede-40d0-ab16-905cb9912fcd")
-		)
-		(instances
-			(project "dumb-watch"
-				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4221,6 +4155,84 @@
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 208.28 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d9eb1b5-94e7-4c5f-aa8f-5da0b4db0a08")
+		(property "Reference" "TP10"
+			(at 213.36 110.236 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 213.36 112.776 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e716f2b9-eaf4-4c5b-84a5-0561e029905a")
+		)
+		(instances
+			(project "dumb-watch"
+				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5829,6 +5841,83 @@
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 45.72 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff4bad40-6999-4b4b-bcc5-bddebe07b602")
+		(property "Reference" "#PWR095"
+			(at 45.72 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 45.466 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 45.72 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b58f1152-bfe1-4c19-b573-c8944fcdcbae")
+		)
+		(instances
+			(project "dumb-watch"
+				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
