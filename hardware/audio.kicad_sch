@@ -2844,7 +2844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01d0b488-2fad-42a2-aacb-e8d3ebf8ac5d")
-		(property "Reference" "R16"
+		(property "Reference" "R502"
 			(at 134.62 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,7 +2908,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "R16")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -2926,7 +2926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c038d48-48d9-4b48-b298-5ea10f06ee48")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0502"
 			(at 45.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2986,7 +2986,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR052")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -3004,7 +3004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d398131-8a1e-4e2b-91ed-e88542577581")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0505"
 			(at 102.87 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3064,7 +3064,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR055")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18beaa0a-4ace-4c78-92d7-a5e0c4e5c5b9")
-		(property "Reference" "R15"
+		(property "Reference" "R501"
 			(at 48.26 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,7 +3146,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "R15")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -3163,7 +3163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24cd80b6-0360-4b2e-af0b-fe1b33c0e685")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0507"
 			(at 130.81 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3223,7 +3223,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR057")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -3240,7 +3240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2885902d-a7ee-4759-9aba-b0baf0dac907")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0508"
 			(at 130.81 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3300,7 +3300,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR058")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -3317,7 +3317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d5b90aa-f02c-479b-a8b3-e63f8b526a27")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0504"
 			(at 72.39 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3377,7 +3377,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR054")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -3394,7 +3394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "310a4a4f-8044-47d2-be6f-a8265fd7fe0a")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0512"
 			(at 193.04 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3454,7 +3454,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR062")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -3471,7 +3471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ad9bb51-ce99-41ef-a5a7-cc695589c5c8")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0503"
 			(at 52.07 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3531,7 +3531,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR053")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d7a836e-b103-4ad5-a242-7244c789d139")
-		(property "Reference" "R17"
+		(property "Reference" "R503"
 			(at 201.422 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3612,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "R17")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -3630,7 +3630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ebbb494-c877-4be6-ae9e-4fdd1f36de75")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0513"
 			(at 199.39 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3690,7 +3690,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR064")
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b9ac1ae-afda-44ce-866a-6312c303e720")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0510"
 			(at 151.13 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3767,7 +3767,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR060")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -3785,7 +3785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cf0e25f-8561-4270-89a7-7f7acbb822ea")
-		(property "Reference" "L3"
+		(property "Reference" "L502"
 			(at 205.71 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3880,7 +3880,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "L3")
+					(reference "L502")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5676dbf3-c466-48c6-8ac7-63c623478948")
-		(property "Reference" "U8"
+		(property "Reference" "U501"
 			(at 170.18 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4073,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "U8")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -4090,7 +4090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5861d581-f368-47b3-bc24-1c680599dd8c")
-		(property "Reference" "R18"
+		(property "Reference" "R504"
 			(at 210.312 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +4154,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "R18")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -4171,7 +4171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d9eb1b5-94e7-4c5f-aa8f-5da0b4db0a08")
-		(property "Reference" "TP10"
+		(property "Reference" "TP503"
 			(at 213.36 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,7 +4232,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "TP10")
+					(reference "TP503")
 					(unit 1)
 				)
 			)
@@ -4249,7 +4249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62a219c8-c1c2-4829-a006-ae99e267f112")
-		(property "Reference" "C30"
+		(property "Reference" "C509"
 			(at 220.98 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +4313,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C30")
+					(reference "C509")
 					(unit 1)
 				)
 			)
@@ -4330,7 +4330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63532f62-088c-4a41-9bdd-78d62146ff2d")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0516"
 			(at 217.17 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +4390,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR066")
+					(reference "#PWR0516")
 					(unit 1)
 				)
 			)
@@ -4409,7 +4409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64a37de2-cb44-4e47-982f-431f78a2a1a0")
-		(property "Reference" "MIC1"
+		(property "Reference" "MIC501"
 			(at 62.23 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,7 +4532,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "MIC1")
+					(reference "MIC501")
 					(unit 1)
 				)
 			)
@@ -4550,7 +4550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dec09aa-fda4-430f-b6e1-590778a6f274")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0514"
 			(at 200.66 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4610,7 +4610,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR063")
+					(reference "#PWR0514")
 					(unit 1)
 				)
 			)
@@ -4628,7 +4628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "745c5f80-80e1-4090-9405-87f14a26876d")
-		(property "Reference" "C27"
+		(property "Reference" "C506"
 			(at 127.254 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +4692,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C27")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -4709,7 +4709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76844742-0ce0-4178-94ab-3cb765a87295")
-		(property "Reference" "C28"
+		(property "Reference" "C507"
 			(at 134.62 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4773,7 +4773,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C28")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -4790,7 +4790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c045343-967b-4ab9-9e06-c5e679fcc3ed")
-		(property "Reference" "TP9"
+		(property "Reference" "TP501"
 			(at 38.354 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,7 +4849,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "TP9")
+					(reference "TP501")
 					(unit 1)
 				)
 			)
@@ -4867,7 +4867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82a2937e-eef6-4ed1-a579-364397e5e3f1")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0506"
 			(at 128.27 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4927,7 +4927,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR056")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -4945,7 +4945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f136fed-b622-4446-aa2e-9e508b01073f")
-		(property "Reference" "L2"
+		(property "Reference" "L501"
 			(at 163.8 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5040,7 +5040,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "L2")
+					(reference "L501")
 					(unit 1)
 				)
 			)
@@ -5058,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a40628a2-7e8f-4410-89cd-f4ae03d60fb5")
-		(property "Reference" "C23"
+		(property "Reference" "C502"
 			(at 78.74 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5120,7 +5120,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C23")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -5138,7 +5138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af6cb95a-4800-4063-b0be-ccc5a7b49665")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0515"
 			(at 210.82 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5198,7 +5198,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR065")
+					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
@@ -5216,7 +5216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b571bef7-b76a-4fea-aace-0b3249f74ea5")
-		(property "Reference" "C22"
+		(property "Reference" "C501"
 			(at 41.91 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5280,7 +5280,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C22")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -5298,7 +5298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5f6b5bd-b11b-4ca6-874b-d30ce187f9b8")
-		(property "Reference" "C24"
+		(property "Reference" "C503"
 			(at 105.918 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5362,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C24")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -5379,7 +5379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca3c21e9-6ef4-48a6-ba66-ce5f85b9962e")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0511"
 			(at 171.45 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5439,7 +5439,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR061")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -5456,7 +5456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2dad8db-4829-485b-986e-e6357abefbcc")
-		(property "Reference" "TP8"
+		(property "Reference" "TP502"
 			(at 91.948 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,7 +5517,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "TP8")
+					(reference "TP502")
 					(unit 1)
 				)
 			)
@@ -5534,7 +5534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df11b076-b619-4624-8502-b983dd23b15e")
-		(property "Reference" "C29"
+		(property "Reference" "C508"
 			(at 175.26 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5598,7 +5598,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C29")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -5616,7 +5616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef07c785-0dbb-4464-a372-12586753e9d9")
-		(property "Reference" "C26"
+		(property "Reference" "C505"
 			(at 119.634 119.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5680,7 +5680,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C26")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -5698,7 +5698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f190d826-c6e8-4fb0-a6da-3f9eb5aec5db")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0509"
 			(at 146.05 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5758,7 +5758,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR059")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -5776,7 +5776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb9b3556-96ae-4fc1-8d0f-9b857cfaec39")
-		(property "Reference" "C25"
+		(property "Reference" "C504"
 			(at 112.014 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5840,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "C25")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -5857,7 +5857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff4bad40-6999-4b4b-bcc5-bddebe07b602")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0501"
 			(at 45.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5917,7 +5917,7 @@
 		(instances
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/cb5edf23-4085-4ffd-92f1-15d66d4d1018"
-					(reference "#PWR095")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
