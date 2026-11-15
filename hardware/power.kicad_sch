@@ -614,7 +614,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:MCP73831T-2ACI_OT"
+		(symbol "EasyEDA:MCP73832T-2ACI_OT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -630,7 +630,7 @@
 					)
 				)
 			)
-			(property "Value" "MCP73831T-2ACI/OT"
+			(property "Value" "MCP73832T-2ACI/OT"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -640,7 +640,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
+			(property "Footprint" "EasyEDA:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -651,7 +651,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Battery-Management_Microchip-Tech-MCP73831T-2ACI-OT_C424093.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Battery-Management_MICROCHIP_MCP73832T-2ACI-OT_MCP73832T-2ACI-OT_C38066.html"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -684,7 +684,7 @@
 					)
 				)
 			)
-			(property "MPN" "MCP73831T-2ACI/OT"
+			(property "MPN" "MCP73832T-2ACI/OT"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -695,7 +695,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C424093"
+			(property "LCSC Part" "C38066"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -717,7 +717,7 @@
 					)
 				)
 			)
-			(symbol "MCP73831T-2ACI_OT_0_1"
+			(symbol "MCP73832T-2ACI_OT_0_1"
 				(rectangle
 					(start -8.89 5.08)
 					(end 8.89 -5.08)
@@ -2491,6 +2491,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODD: https://jlcpcb.com/partdetail/TexasInstruments-BQ24075RGTR/C15464"
+		(exclude_from_sim no)
+		(at 125.73 81.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 28 0 1)
+			)
+		)
+		(uuid "6deb7e1c-69a3-4ea4-b720-46feca826699")
+	)
 	(text "Backfeed-Schutz ist in Lade-IC integriert"
 		(exclude_from_sim no)
 		(at 114.808 101.854 0)
@@ -2620,10 +2631,10 @@
 		(uuid "12a187cc-230c-4df5-850b-51cae3009c2a")
 	)
 	(junction
-		(at 90.17 127)
+		(at 125.73 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "278964a2-af91-4db1-9395-fb41687ce2bd")
+		(uuid "18b4e351-c5d9-4196-8ae5-8c066b34a72c")
 	)
 	(junction
 		(at 113.03 57.15)
@@ -2650,10 +2661,10 @@
 		(uuid "52e6dffa-5051-4100-bcea-56f9600e6d73")
 	)
 	(junction
-		(at 105.41 125.73)
+		(at 107.95 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d19512e-b3c5-4be1-902c-2aea53501459")
+		(uuid "83b2f130-128f-4794-a79f-981f902a2331")
 	)
 	(junction
 		(at 82.55 142.24)
@@ -2668,10 +2679,28 @@
 		(uuid "8e26a6b2-b96a-45cc-9861-4c34c21097d6")
 	)
 	(junction
+		(at 90.17 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0cecc15-5265-4d16-8913-5ff60ab5f927")
+	)
+	(junction
 		(at 82.55 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a89897bf-d9a8-4b14-8340-e41d22673a20")
+	)
+	(junction
+		(at 87.63 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac4b6bc3-3e8c-4a39-8d74-e045af9cf09f")
+	)
+	(junction
+		(at 125.73 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a2c1c5-1f37-45fb-8a84-02f6f3abedad")
 	)
 	(junction
 		(at 106.68 46.99)
@@ -2686,18 +2715,6 @@
 		(uuid "cad0cb34-fa49-4c0f-a630-d49aa588b4c2")
 	)
 	(junction
-		(at 105.41 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf55a940-03e5-49b6-b3b6-2815234653ff")
-	)
-	(junction
-		(at 120.65 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d94e51b7-1f96-4fb9-ab59-d1f0200878e0")
-	)
-	(junction
 		(at 85.09 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2710,16 +2727,10 @@
 		(uuid "db995735-6b9d-4023-9d55-516d7bf993d3")
 	)
 	(junction
-		(at 120.65 130.81)
+		(at 107.95 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dc6aa761-f5ec-4aff-8d56-ad950a71ed7b")
-	)
-	(junction
-		(at 87.63 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f07d35c1-c9fc-40c6-9b2e-dab8d124e02e")
+		(uuid "ddc256fc-e76a-4574-8e86-a08b36d2c33c")
 	)
 	(junction
 		(at 214.63 52.07)
@@ -2742,7 +2753,7 @@
 		(uuid "d7c6b25e-d3d5-4271-9591-f1a38ecbdbc3")
 	)
 	(bus_entry
-		(at 137.16 127)
+		(at 140.97 127)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2751,7 +2762,7 @@
 		(uuid "5496ca3e-a9c8-40b2-9070-fe6750531101")
 	)
 	(bus_entry
-		(at 137.16 124.46)
+		(at 140.97 124.46)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2811,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 125.73) (xy 105.41 125.73)
+			(xy 107.95 125.73) (xy 109.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2851,6 +2862,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 139.7) (xy 125.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b49b506-83b9-4d42-9fba-66b80199c81a")
+	)
+	(wire
+		(pts
 			(xy 80.01 114.3) (xy 82.55 114.3)
 		)
 		(stroke
@@ -2878,16 +2899,6 @@
 			(type default)
 		)
 		(uuid "25469c7a-b112-47f5-9d65-3b7b881b84e1")
-	)
-	(wire
-		(pts
-			(xy 105.41 125.73) (xy 120.65 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28032a7d-50ab-456d-991e-a1467de6cd12")
 	)
 	(wire
 		(pts
@@ -2921,7 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 130.81) (xy 121.92 130.81)
+			(xy 124.46 130.81) (xy 125.73 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2971,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 129.54) (xy 104.14 129.54)
+			(xy 87.63 129.54) (xy 107.95 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2991,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 125.73) (xy 121.92 127)
+			(xy 125.73 125.73) (xy 125.73 127)
 		)
 		(stroke
 			(width 0)
@@ -3011,7 +3022,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 139.7) (xy 115.57 138.43)
+			(xy 119.38 140.97) (xy 119.38 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3031,23 +3042,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 129.54) (xy 134.62 129.54)
+			(xy 107.95 118.11) (xy 125.73 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5374f663-6dc3-4a29-b76c-1d776a1d0d6b")
+	)
+	(wire
+		(pts
+			(xy 125.73 129.54) (xy 138.43 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53e08286-81c6-433c-ab58-14b40bd16a3b")
-	)
-	(wire
-		(pts
-			(xy 105.41 130.81) (xy 120.65 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d4a49d-899f-4aba-b266-97cc764abee6")
 	)
 	(wire
 		(pts
@@ -3068,6 +3079,16 @@
 			(type default)
 		)
 		(uuid "5ec3eeb1-c7d4-4830-9590-376eab4de7bd")
+	)
+	(wire
+		(pts
+			(xy 107.95 130.81) (xy 107.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6095bb2d-000d-4905-a1b4-7228c8d50e4d")
 	)
 	(wire
 		(pts
@@ -3111,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 127) (xy 134.62 127)
+			(xy 125.73 127) (xy 138.43 127)
 		)
 		(stroke
 			(width 0)
@@ -3121,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 127) (xy 104.14 125.73)
+			(xy 107.95 127) (xy 107.95 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3141,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 125.73) (xy 107.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d700508-fc1e-449f-9cc0-9ccd43f975cf")
+	)
+	(wire
+		(pts
 			(xy 80.01 127) (xy 90.17 127)
 		)
 		(stroke
@@ -3151,7 +3182,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 121.92) (xy 137.16 124.46)
+			(xy 140.97 121.92) (xy 140.97 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3211,6 +3242,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 118.11) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b201851-a19e-469e-aa51-f7a95fff1b38")
+	)
+	(wire
+		(pts
 			(xy 80.01 129.54) (xy 87.63 129.54)
 		)
 		(stroke
@@ -3221,23 +3262,13 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 127) (xy 137.16 124.46)
+			(xy 140.97 127) (xy 140.97 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d3b2f54-440b-4140-80bd-1deae84b112d")
-	)
-	(wire
-		(pts
-			(xy 121.92 130.81) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f826c65-0a42-44a5-ae2b-681fd70424f6")
 	)
 	(wire
 		(pts
@@ -3341,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 127) (xy 104.14 127)
+			(xy 90.17 127) (xy 107.95 127)
 		)
 		(stroke
 			(width 0)
@@ -3351,7 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 130.81) (xy 105.41 130.81)
+			(xy 107.95 130.81) (xy 109.22 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3381,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 121.92 125.73)
+			(xy 124.46 125.73) (xy 125.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3398,6 +3429,16 @@
 			(type default)
 		)
 		(uuid "c5f37383-4ac5-4695-bd4c-d4429363d3a7")
+	)
+	(wire
+		(pts
+			(xy 125.73 129.54) (xy 125.73 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c656c561-653c-4cdf-9767-17505ceb2c4a")
 	)
 	(wire
 		(pts
@@ -3418,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "c7080aea-3908-4653-af92-d5d81424f521")
+	)
+	(wire
+		(pts
+			(xy 125.73 130.81) (xy 125.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82559ed-578a-4230-9b2a-c404cf34be90")
 	)
 	(wire
 		(pts
@@ -3461,7 +3512,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 121.92) (xy 139.7 121.92)
+			(xy 140.97 121.92) (xy 143.51 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3481,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 129.54) (xy 104.14 130.81)
+			(xy 107.95 129.54) (xy 107.95 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3661,7 @@
 		(uuid "fe12cf67-620c-4c1b-9db9-8f8a922d5159")
 	)
 	(label "USB.DP"
-		(at 127 127 0)
+		(at 130.81 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3620,7 +3671,7 @@
 		(uuid "15b4b15c-16e1-4b3f-879f-3f404cc2b71d")
 	)
 	(label "USB.DM"
-		(at 127 129.54 0)
+		(at 130.81 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3631,7 +3682,7 @@
 	)
 	(hierarchical_label "USB{DP DM}"
 		(shape bidirectional)
-		(at 139.7 121.92 0)
+		(at 143.51 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3731,7 +3782,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:RCLAMP0522P-ES")
-		(at 105.41 125.73 0)
+		(at 109.22 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3739,10 +3790,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a4d6c28-2445-45bd-bf45-7e190c8ae794")
 		(property "Reference" "U201"
-			(at 113.0935 115.57 0)
+			(at 117.094 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3752,7 +3802,7 @@
 			)
 		)
 		(property "Value" "RCLAMP0522P-ES"
-			(at 113.0935 118.11 0)
+			(at 117.094 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3762,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:DFN-6_L1.6-W1.0-P0.50-BL"
-			(at 105.41 139.7 0)
+			(at 109.22 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3773,7 +3823,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19170902.pdf"
-			(at 105.41 142.24 0)
+			(at 109.22 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3784,7 +3834,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 125.73 0)
+			(at 109.22 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,7 +3845,7 @@
 			)
 		)
 		(property "Manufacturer" "ElecSuper(静芯)"
-			(at 105.41 144.78 0)
+			(at 109.22 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3806,7 +3856,7 @@
 			)
 		)
 		(property "MPN" "RCLAMP0522P-ES"
-			(at 105.41 147.32 0)
+			(at 109.22 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3817,7 +3867,7 @@
 			)
 		)
 		(property "LCSC Part" "C19170902"
-			(at 105.41 149.86 0)
+			(at 109.22 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,150 +4453,6 @@
 			(project "dumb-watch"
 				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
 					(reference "#PWR0210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:MCP73831T-2ACI_OT")
-		(at 129.54 49.53 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2edef9e8-d68c-4528-b996-2a0d29f53415")
-		(property "Reference" "U202"
-			(at 129.54 42.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP73831T-2ACI/OT"
-			(at 129.54 39.624 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
-			(at 129.54 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Battery-Management_Microchip-Tech-MCP73831T-2ACI-OT_C424093.html"
-			(at 129.54 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "MICROCHIP(美国微芯)"
-			(at 129.54 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP73831T-2ACI/OT"
-			(at 129.54 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C424093"
-			(at 129.54 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 129.54 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 129.54 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "fd50ed8d-0d8c-487e-9b4b-6753ecd55f9e")
-		)
-		(pin "1"
-			(uuid "03af8a52-2f2c-41d7-a395-2a2ed950405b")
-		)
-		(pin "2"
-			(uuid "0e2719d3-cd08-429a-b311-0e8420f1b467")
-		)
-		(pin "5"
-			(uuid "0447ae65-d478-498a-a1df-dcae4b5f8dae")
-		)
-		(pin "4"
-			(uuid "71797bc9-1310-4058-a665-131363c2906a")
-		)
-		(instances
-			(project "dumb-watch"
-				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
-					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -5589,6 +5495,128 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:MCP73832T-2ACI_OT")
+		(at 129.54 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a35f41-eb18-4f37-9b52-037e567443af")
+		(property "Reference" "U204"
+			(at 129.54 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP73832T-2ACI/OT"
+			(at 129.54 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+			(at 129.54 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Battery-Management_MICROCHIP_MCP73832T-2ACI-OT_MCP73832T-2ACI-OT_C38066.html"
+			(at 129.54 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MICROCHIP(美国微芯)"
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCP73832T-2ACI/OT"
+			(at 129.54 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C38066"
+			(at 129.54 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "14b19841-e020-4b72-8adc-c2e855e5bb00")
+		)
+		(pin "1"
+			(uuid "1a3457b8-994b-4ce6-9fe9-cfca3da8d8b4")
+		)
+		(pin "4"
+			(uuid "5c26afbf-381a-4d5c-9108-03dd61f0944b")
+		)
+		(pin "5"
+			(uuid "8e977927-5249-4047-92da-ac1e872193cd")
+		)
+		(pin "3"
+			(uuid "2e29dc77-a82b-471c-bb11-00bbc8538d42")
+		)
+		(instances
+			(project "dumb-watch"
+				(path "/adcfcebe-5527-4a49-9ef3-b0a229655985/29a2119f-a37b-4f35-af38-69cfe2a64f32"
+					(reference "U204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 106.68 45.72 0)
 		(unit 1)
@@ -6554,7 +6582,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 139.7 0)
+		(at 119.38 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6564,7 +6592,7 @@
 		(dnp no)
 		(uuid "f2a60021-a5d9-48f5-9128-255002b69a8b")
 		(property "Reference" "#PWR0209"
-			(at 115.57 146.05 0)
+			(at 119.38 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,7 +6603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 144.018 0)
+			(at 119.38 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6585,7 +6613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 139.7 0)
+			(at 119.38 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +6624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 139.7 0)
+			(at 119.38 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6607,7 +6635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 139.7 0)
+			(at 119.38 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
